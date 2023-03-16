@@ -23,7 +23,7 @@ namespace ChatGTP.Controllers
         {
             // Create an instance of the OpenAI API client
             //Replace your accout key. Goto "https://platform.openai.com/account/api-keys"
-            var client = new OpenAIAPI("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");
+            var client = new OpenAIAPI("sk-76767");
             if (string.IsNullOrEmpty(request.Model))
             {
                 request.Model = "text-davinci-003";
